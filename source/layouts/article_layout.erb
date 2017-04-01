@@ -1,0 +1,70 @@
+ 
+
+ <% wrap_layout :layout do %>
+   <% author = find_author(current_article.data.author) %>
+
+ <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=58cda0c13f5b74001237edc6&product=sticky-share-buttons"></script>
+
+ 
+ <div class="contenu">
+  <div id="articleheading" class="foo">
+</div>
+
+<article id="article_style" >
+    <div id="article_title">
+ <%= current_article.title %>
+</div><br>
+    <div id="article_image">
+     <%= current_article.data.image %> 
+</div><br>
+     
+      <div id="article_text">
+     
+        <%= yield %>
+
+      </div>
+  </article>
+ 
+
+  <!-- link with `#disqus_thread` is optional if not using `disqus_count` -->
+
+  <div class="comment">
+  <%= disqus %>
+  </div>
+<div class="retour">
+<button type="button" class="btn btn-info bt-sm" data-target="blog.html">
+       retour au menu
+</button>
+</div>
+  <div class="footer_article">
+      <div class="column">
+        <h2>Recent Articles</h2>
+      <ol class="blog-detail">
+        <% blog.articles[0...10].each do |article| %>
+          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+        <% end %>
+      </ol>
+      </div>
+
+     <div class="column"> <h2>Tags</h2>
+      <ol class="blog-detail">
+        <% blog.tags.each do |tag, articles| %>
+          <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+        <% end %>
+      </ol>
+     </div>
+      
+      <div class="column">
+        <h2>By Year</h2>
+      <ol class="blog-detail">
+        <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+          <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+        <% end %>
+      </ol>
+    </div>
+  </div>
+  <% end %>
+
+  </div>
+ 
+ 

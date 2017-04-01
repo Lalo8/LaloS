@@ -8,14 +8,14 @@
     
     <!-- For Bootstrap responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1,user-scalable=no">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title || "LALOS" %></title>
 
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
-    
+   
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
     <!--[if lt IE 9]>
@@ -36,7 +36,7 @@
             <span class="icon-bar"></span>
           </button>
           <% link_to "/index.html", class: "navbar-brand" do %>
-            <%= image_tag 'logo.svg' %>
+            <h1 style="font-style:$logo-font;color:$bluelogo;">.LALOS</h1>
           <% end %>
         </div>
 
@@ -44,29 +44,44 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right">
+          
             <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
+              <% link_to "portfolio.html" do %>
+                 Portfolio
               <% end %>
             </li>
+            
             <li>
-              <% link_to "/contact.html" do %>
-                <i class="fa fa-envelope-o"></i> Contact
+              <% link_to "bl/blog.html" do %>
+                Blog
               <% end %>
+            <li>
+           <a data-toggle="modal" data-target="#message" class="button">Contact</a>
+            </li>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Suivez-moi !<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/elodiewanang"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
+                <li><a href="https://twitter.com/ewanang"><i class="fa fa-twitter-square"></i> Twitter</a></li>
               </ul>
             </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
     <%= yield %>
-  </body>
+  <div id="footer">
+    <ul class= "list-inline">
+      <li><a href="https://twitter.com/ewanang" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/elodiewanang" target="_blank"><i class="fa fa-linkedin"></i> </a></li>
+      <br><br>
+      <p>Elodie WANANG - Copyrights 2017</p>
+    </ul>
+  </div>
+ 
+</body>
 </html>
+
+  
