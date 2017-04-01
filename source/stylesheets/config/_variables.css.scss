@@ -24,16 +24,33 @@ $base-height: 1.4;
  * Colors
  * ------------------------------------- */
 // Scheme
+
 $red: #EE5F5B;
 $blue: #469AE0;
+$bluelogo:#3174ff;
 $yellow: #FDB631;
+$yellow-lighter:#FFDE8B;
+$yellow-light:#FFEFC4;
 $orange: #E67E22;
 $green: #32B796;
+$emerald:lighten($green, 10%);
+$light-emerald:#F2FCF9;
 $purple: #6452BD;
+$whitebroken:#FFFFFF;
+$whitedarker:#FBFBFB;
+$grey:#B2B2B0;
+$whiteborder:#EEEEEE;
+$brown-darker:#645e60;
+$brown-footer: #797274;
 
 // Gray scale
-$gray-darker:  lighten(#000, 13.5%); // #222
+$gray-darker:  rgb(78, 78, 83); // #222
 $gray-dark:    lighten(#000, 20%);   // #333
 $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
-$gray-lighter: lighten(#000, 93.5%); // #eee
+$gray-lighter: rgb(198, 196, 196); // #eee
+$gray-shadow: darken(#eee,30%);
+$grey-newsletter: darken(#EEEEEE, 2%);
+$grey-background:#F7F7F7;
+
+#text-muted {font-style:italic}
