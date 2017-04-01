@@ -1,10 +1,166 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: LALOS
 ---
+<link rel="stylesheet" href="stylesheets/magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/mediaBoxes.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/demo.css">
 
-<div class="welcome text-center padded">
-  <h1>You're <a href="https://www.lewagon.com">Le Wagon</a>'s boilerplate!</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<style>
+
+  body{
+      margin:0;
+    }
+
+
+    /* hover effect on the image */
+    .media-box-image img{
+        -webkit-transition: transform 0.6s ease-in-out;
+           -moz-transition: transform 0.6s ease-in-out;
+             -o-transition: transform 0.6s ease-in-out;
+            -ms-transition: transform 0.6s ease-in-out;
+                transition: transform 0.6s ease-in-out;
+
+        -webkit-transform-origin: bottom left;
+           -moz-transform-origin: bottom left;
+             -o-transform-origin: bottom left;
+            -ms-transform-origin: bottom left;
+                transform-origin: bottom left;
+    }
+    .media-box-image:hover img{
+        -webkit-transform: scale(1.2) translate(-20px);
+           -moz-transform: scale(1.2) translate(-20px);
+             -o-transform: scale(1.2) translate(-20px);
+            -ms-transform: scale(1.2) translate(-20px);
+                transform: scale(1.2) translate(-20px);
+    }
+</style>
+
+<div id="banner" class="foo" style="background-color:rgba(0, 0, 0, 0.5)">
+  <div class="col-sm-12">
+    <h1>Hello</h1>
+  </div>
+   <div class="text-center" style="position: relative;top: 30px;">
+    <a href="#more">
+    <i class="fa fa-angle-double-down pulse" aria-hidden="true" style="font-size:80px;color:white;"></i>
+    </a>
+     </div>
+   </div>
+   <div class="grid-section" id="more">
+    <div class="headline">
+      <h2>2 <strong>OPTIONS</strong></h2>
+       <p>
+      </p>
+    </div>
+        <div class="content grid-container full-width foo">
+          <div id="grid">
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                <div class="media-box nature">
+                    <a href="portfolio.html">
+                      <div class="media-box-image">
+                        <div data-width="240" data-height="151" data-thumbnail="images/Portfolio/juju.jpeg" >
+                          
+                        </div>
+                        
+                        <div class="thumbnail-overlay red-portfolio" data-src="images/Portfolio/boyplaya.jpg">
+                            <div class="thumbnail-overlay-animated" data-from="top">
+                              <div class="media-box-title-index">Portfolio</div>
+                         </div>
+                       </div>
+                    </div>
+                </a>
+              </div>
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                <div class="media-box outside">
+                    <div class="media-box-image">
+                        <a href="bl/blog.html"><div data-width="240" data-height="151" data-thumbnail="images/womenintech1.jpg" ></div>
+                        
+                        <div class="thumbnail-overlay blue-blog" data-src="images/womenintech1.jpg">
+                            <div class="thumbnail-overlay-animated" data-from="top">
+                              <div class="media-box-title-index">Blog</div>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+        </div> 
+    </div>
+ </div>
+
+  <section id="contact">
+    <div class="container foo">
+      <h2>Pour toute demande d'informations</h2>
+      <br>
+       <button type="button" class="btn btn-info bt-lg" data-toggle="modal" data-target="#message">
+       C'est par ici !
+       </button>
+
+      </div>   
+
+
+         <!-- Sign-up Modal -->
+    <div class="modal fade" id="message" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Ton message</h4>
+             <br><br>
+            <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" for="exampleInputName1">Name</label>
+                <input type="name" class="form-control" id="exampleInputName1" placeholder="Nom">
+              </div>
+               <div class="form-group">
+                <label class="sr-only" for="exampleInputEmail2">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"></div>
+              <br><br>
+              <textarea class="form-control" rows="3"placeholder="Message"></textarea>
+           <br><br>
+           <button type="submit" class="btn btn-success">Envoyé !</button>
+          </form>
+           
+          <div class="modal-body">
+            <!-- Your signup form -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+  window.sr = ScrollReveal();
+  sr.reveal('.foo');
+  sr.reveal('.bar');
+  </script>
+
+
+      <!-- Media Boxes JS files -->
+  <script src="javascripts/jquery.isotope.min.js"></script>
+  <script src="javascripts/jquery.imagesLoaded.min.js"></script>
+  <script src="javascripts/jquery.transit.min.js"></script>
+  <script src="javascripts/jquery.easing.js"></script>
+  <script src="javascripts/waypoints.min.js"></script>
+  <script src="javascripts/modernizr.custom.min.js"></script>
+  <script src="javascripts/jquery.magnific-popup.min.js"></script>
+  <script src="javascripts/jquery.mediaBoxes.dropdown.js"></script>
+  <script src="javascripts/jquery.mediaBoxes.js"></script>
+
+  <script>
+
+      $('#grid').mediaBoxes({
+        filterContainer: '#filter',
+        search: '#search',
+        columns: 2,
+        boxesToLoadStart: 9,
+        boxesToLoad: 9,
+        overlayEffect: 'direction-aware',
+        horizontalSpaceBetweenBoxes: 0,
+          verticalSpaceBetweenBoxes: 0,
+          minBoxesPerFilter: 20,
+      }); 
+
+  </script>
