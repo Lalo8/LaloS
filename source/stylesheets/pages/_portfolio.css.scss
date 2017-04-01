@@ -1,0 +1,22 @@
+
+  //title: Portfolio
+
+.portfolio{
+	background:black;
+	box-shadow: 2px 1px 1px &gray-darker;
+	h2{
+	font-family: "Montserrat",sans-serif;
+	font-weight: normal;
+	color:$gray-darker;
+    margin-bottom: 70px;
+    margin-top: 30px;}
+	p {
+	 color:$gray-darker;
+	}}
+	
+.portfolio-item {
+	display: inline-block;
+	margin-left: 60px;
+	margin-bottom :60px;
+
+		}

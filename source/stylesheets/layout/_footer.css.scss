@@ -1,1 +1,106 @@
 // Your footer style
+
+#footer{
+	background-color:rgb(121, 114, 116);
+	padding: 30px 20px;
+	text-align:center;
+	border-style:solid;
+	border-width:0px 0px 9px 0px;
+	border-color: $brown-darker;
+	font-size:14px;
+	font-weight:bold;
+ a{
+text-align:center;
+font-size:20px;
+color:white;}
+
+ a:hover{
+    color:#B2B2B0;	
+    }
+}
+ #footer>.open > a:hover{
+ 	color :#purple
+}
+
+.footer_article{
+	background-color:rgb(230, 230, 230);
+    padding-left: 22%;}
+
+.column{
+
+display: inline-block;
+vertical-align: top;
+margin-left: 30px;
+padding-left: 30px;
+min-height: 184px;
+
+
+h2{
+font-family:'Raleway','Montserrat','Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+font-size: 17px;
+}
+
+li,ol{
+color: #3D5499;
+}
+
+a{
+color: #7F7F7F;
+}
+
+
+}
+
+.blog-detail{
+  list-style-type: none;
+  margin: 1em 0em;
+  padding: 0em 0em;
+  font-family:'Raleway','Montserrat','Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+.footer_article{
+	background-color:rgb(230, 230, 230);
+    width: 100%;
+    padding-left:0px;
+}
+.blog-detail{
+  font-family:'Raleway','Montserrat','Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+
+.column{
+
+
+display:none;
+height:100%;
+width:100%;
+margin-left:0px;
+padding-left:5px;
+
+h2{
+font-family:'Raleway','Montserrat','Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+font-size: 17px;
+}
+
+li,ol{
+color: #3D5499;
+}
+
+a{
+color: #7F7F7F;
+}
+
+	}
+
+	
+
+}
+
+
+
+// Your footer style
