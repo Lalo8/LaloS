@@ -16,7 +16,7 @@ I’ve always wanted to create my own print ads.
 For that, I found a pretty quick solution : to learn graphic design. Thus, I joined a 6-month course during my academic exchange in Mexico to learn different techniques and how to use the famous Adobe suite.
 Loot at the result : pretty nice, isn’t it?
 
-<img src="/images/DMU23.png" alt="womenintech" style="center">
+<img src="/images/DMU23.png" alt="women power" class="imagein">
 
 Thus, I’ve decided to go a bit deeper, and to accomplish my second dream: to build my own online platform where I could publish all my creative assets (photos, graphics visuals)
 Once again, the solution was pretty easy to find thanks to what I consider as the « black gold » of the web : online tutorials. I had the choice between several ones.
@@ -24,7 +24,7 @@ I’ve decided to join an 1-month online track to learn coding.
 A month later, I was able to publish my own portfolio : lalo8.github.io/Lalo
 
 
-<img src="/images/DMU24.png" alt="womenintech" style="center">
+<img src="/images/DMU24.png" alt="creativity" class="imagein">
 
 
 At the same time, during my professional experiences, I had the opportunity to develop a lot of technical skills specific to web such as data analysis, advertising campaign management, digital project management.
