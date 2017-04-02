@@ -11080,7 +11080,8 @@ button.close {
   color: white; }
 
 /* line 1, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
-#banner {
+#
+{
   background-image: url("images/Dakar_copie.jpg");
   background-size: 1900px auto;
   height: 955px;
@@ -11095,11 +11096,13 @@ button.close {
 
 /* line 17, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
 .maintitle {
-  margin: 40px auto; }
+  margin-left:auto;
+  margin-right: auto;}
   /* line 20, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
   .maintitle p {
     font-size: 50px;
-    text-align: center; }
+    text-align: center;
+padding-top :20%;}
 
 /* line 27, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
 .actu {
