@@ -14,6 +14,16 @@
 
     }
 
+.maintitle {
+  margin: 40px auto;
+ 
+ p{ font-size: 50px;
+  text-align : center;
+}
+
+}
+
+
 .actu{
 	margin-top: 20px;
 	padding-bottom:200px;
@@ -56,17 +66,17 @@
  
  { 
  	background-color:$red;
- 	padding: 40px;
     padding-top: 20px;
+    padding-bottom :25px;
     height: auto;
     weight: auto;
-    h2,small{
+    p,small{
     color:white;
     }
-    h2{
-    font-size: 46px;
-    padding-top: 80px;
-    margin-left: 42%;
+    p{
+    padding-top:40px;
+    font-size: 40px;
+    text-align : center;
     font-family:'Montserrat';
     }
 }
@@ -74,17 +84,17 @@
  
  { 
   background-color:#3D5499;
-  padding: 40px;
-    padding-top: 20px;
+  padding-top: 20px;
+    padding-bottom :25px;
     height: auto;
     weight: auto;
-    h2,small{
+    p,small{
     color:white;
     }
-    h2{
-    font-size: 46px;
-    padding-top: 70px;
-    margin-left: 46%;
+    p{
+    font-size: 40px;
+    padding-top: 40px;
+    text-align:center;
     font-family:'Montserrat';
     
 }
@@ -238,30 +248,45 @@ margin-left: 35%;
  { 
  background-color:#54529B;
  height:55px;
- width: 100%;
+ weight: auto;
 }
 
+#portfolioheading
+ 
+ { 
+  background-color:$red;
+    padding-top: 25px;
+    padding-bottom :15px;
+    height: auto;
+    weight: auto;
+    p,small{
+    color:white;
+    }
+    p{
+    padding-top:40px;
+    font-size: 30px;
+    text-align : center;
+    font-family:'Montserrat';
+    }
+}
 #blogheading
  
  { 
   background-color:#3D5499;
-
-    padding-top: 10px;
-    height: 115px;
+  padding-top: 25px;
+    padding-bottom :15px;
+    height: auto;
     weight: auto;
-    h2,small{
+    p,small{
     color:white;
     }
-    h2{
-    font-size: 29px;
-    padding-top: 47px;
-    padding-bottom: 10px;
-    margin-left: 34%;
+    p{
+    font-size: 30px;
+    padding-top: 40px;
+    text-align:center;
     font-family:'Montserrat';
-    
-}
-
-}
+    }
+}    
 
 #banner {
   background-image: image_url("Dakar_copie.jpg");
@@ -286,27 +311,7 @@ i{ display : none;
 
 }
 
-#portfolioheading
- 
- { 
-  background-color:$red;
 
-    padding-top: 20px;
-    height: 140px;
-    weight: auto;
-    h2,small{
-    color:white;
-    }
-    h2{
-    font-size: 30px;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    margin-left: 25%;
-    font-family:'Montserrat';
-    
-}
-
-}
 
 
 #contact

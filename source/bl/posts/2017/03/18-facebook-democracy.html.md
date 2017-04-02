@@ -47,6 +47,7 @@ We can also express ourselves on any subject.
 
 You can give your opinion on an original recipe, on a social drama or even on public figures. The inauguration Day has never been as trolled as during Trump one on Facebook. They were tons of Boycott Facebook Pages. Moreover, the official inauguration invite received thousands of incendiary comments(5)
 
+<img src="/images/facebook2.jpg" alt="diversity,facebook" class="imagein">
 
 As every people voice counts, diversity is the king.
 

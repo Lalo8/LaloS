@@ -1,6 +1,6 @@
 ---
 title: Pap’s or how a mobile app is improving Dakar inhabitants’ life?
-image: <img src="../../../images/Dakar.jpg">
+image: <img src="/images/Dakar.jpg">
 date: 2017-03-18 17:55 UTC
 tags: africa
 author : Lalo
@@ -10,7 +10,7 @@ Last December, I had the opportunity to participate in the organizing team of Af
 I met one of the speakers there, Bamba Lô who is the founder of Pap’s, a Dakar-born delivery service mobile App.
 I found his mobile application so very relevant to the needs of Dakar’s inhabitants that I decided to interview him ! Read it below
 
-<img src="../../../images/Bamba.jpg" alt="bamba_createur_Paps" style="center">                                               
+<img src="/images/bamba.jpg" alt="bamba_createur_Paps" class="imagein">                                               
 
 Me: “Hey Bamba, so first I would like to know why did you decide to create this geolocation-based service mobile app?”
 

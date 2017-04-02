@@ -46,7 +46,7 @@ Women in tech who are collaborating
 
 
 
-<img src="/images/womenintech2.jpg" alt="womenintech" style="center">
+<img src="/images/womenintech2.jpg" alt="womenintech" class="imagein">
 
 <br>
 <h3>« …I’m learning how to be efficient in a digital world. »
