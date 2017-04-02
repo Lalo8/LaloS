@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <!-- For Bootstrap responsiveness -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1,user-scalable=no">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>LALOS</title>
+
+    <link href="/stylesheets/all.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
+   
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="bl bl_feed">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+<a class="navbar-brand" href="../">            <h1 style="font-style:$logo-font;color:$bluelogo;">.LALOS</h1>
+</a>        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav navbar-right">
+          
+            <li>
+<a href="portfolio.html">                 Portfolio
+</a>            </li>
+            
+            <li>
+<a href="bl/blog.html">                Blog
+</a>            <li>
+           <a data-toggle="modal" data-target="#message" class="button">Contact</a>
+            </li>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Suivez-moi !<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://www.linkedin.com/in/elodiewanang"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
+                <li><a href="https://twitter.com/ewanang"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/bl</id>
+  <link href="http://blog.url.com/bl"/>
+  <link href="http://blog.url.com/bl/feed.xml" rel="self"/>
+  <updated>2017-03-19T12:08:00+01:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>So how this digital world looks like? Well, it’s pretty kind to us.</title>
+    <link rel="alternate" href="http://blog.url.com/bl/posts/2017/03/19-kind_to_us.html"/>
+    <id>http://blog.url.com/bl/posts/2017/03/19-kind_to_us.html</id>
+    <published>2017-03-19T12:08:00+01:00</published>
+    <updated>2017-04-02T12:26:04+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Guess what? I discovered 2 years ago that I’m a wonderwoman.&lt;/p&gt;
+
+&lt;p&gt;Well, I admit that I’m not really credible in this picture !
+But yes, I discovered that I could do almost anything I wanted thanks to digital.&lt;/p&gt;
+
+&lt;p&gt;First, I’ve decided to fulfil my first dream : being a digital agency director (even for one day)! 
+I’ve always wanted to create my own print ads.
+For that, I found a pretty quick solution : to learn graphic design. Thus, I joined a 6-month course during my academic exchange in Mexico to learn different techniques and how to use the famous Adobe suite.
+Loot at the result : pretty nice, isn’t it?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/DMU23.png" alt="women power" class="imagein" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thus, I’ve decided to go a bit deeper, and to accomplish my second dream: to build my own online platform where I could publish all my creative assets (photos, graphics visuals)
+Once again, the solution was pretty easy to find thanks to what I consider as the « black gold » of the web : online tutorials. I had the choice between several ones.
+I’ve decided to join an 1-month online track to learn coding.
+A month later, I was able to publish my own portfolio : lalo8.github.io/Lalo&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/DMU24.png" alt="creativity" class="imagein" /&gt;&lt;/p&gt;
+
+&lt;p&gt;At the same time, during my professional experiences, I had the opportunity to develop a lot of technical skills specific to web such as data analysis, advertising campaign management, digital project management.
+Thus today, I’m a photographer, a designer, a junior digital media manager.&lt;/p&gt;
+
+&lt;p&gt;Do you understand now? I realized something so precious : thanks to the Web, I didn’t have to choose between my creative hobbies and my attraction to technical projects. In other words, I didn’t have to choose between my creativity and the professional skills I’d want to develop such as deep-dive data analysis.
+Thanks to web, you don’t have to choose what you have to do for financial needs anymore and giving up on your passions. You don’t have to suffer all your life along, the educational choices you’ve made when you were so young :“I‘ve made law studies, so I’ll be an attorney all my life” isn’t a true fact anymore.
+Now is more about “I decided to make law studies in order to become attorner first.” Now, I want to come back to my first passion: archeology. I will then join some online courses in order to acquire some basis on dinosaurs’ anatomy.”
+In fact, you can develop all the skills, knowledge you want without having to give up on other ones: You can be and live all the different faces of your personality without concession.&lt;/p&gt;
+
+&lt;p&gt;Such an easy access to the information, such an awareness of all our capabilities, couldn’t happen without an impact on the economic world. Entrepreneuship seems to be the answer to all these changes.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt; Entrepreneurship is the gift !
+&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Look at Mari Smith, the Facebook marketing expert : she runs a consulting firm, gives sometimes lessons to businesses and brands. She began by being a travel blogger which was one of her passions. Thus, not only she didn’t give up on her passion but also this is what paved the way to the success she is currently experienced.
+Now she has her « tailor-made » job as a mix of her skills : being CEO of a consulting firm, a Facebook marketing expert, an influencer and a blogger.&lt;/p&gt;
+
+&lt;p&gt;Entrepreneurship appears more an more as an alternative to employment.&lt;/p&gt;
+
+&lt;p&gt;Who’s better than Baby Boomers who’ve spent their entire life experiencing employment to prove it?&lt;/p&gt;
+
+&lt;p&gt;In fact, there is this growing trend of « Boomers entrepreneurs »: according to Martin Swilling¹, a Forbes contributor, during every one of the last 15 years, Baby Boomers between 55 and 64 years old have had a higher entrepreneurial activity than generation Y.
+According to a Gallup study², more than 80% launch companies as a lifestyle choice : 56% want to continue their career at being independent and pursuing their passions.
+Moreover, the major part of those surveyed, see in this alternative, what they will earn more than what it will cost : according to Martin’s article, most of baby boomers don’t hesitate to spend their savings in order to build their company.&lt;/p&gt;
+
+&lt;p&gt;Finally it’s interesting to note that thanks to digital technologies, entrepreneurship appear every day easier to access at low cost³ : in fact, for web companies, at the beginning there is no infrastructure to build. The only thing you need at first are the skills to build the solution or even pass by an open source CMS such as Wix to build your e-commerce website.&lt;/p&gt;
+
+&lt;p&gt;What if we all wake up the wonderwoman or superman inside us? :)&lt;/p&gt;
+
+&lt;p&gt;Sources:&lt;/p&gt;
+
+&lt;p&gt;¹Chun, Janean 2012Boomers Who Start Businesses: The Next Great Generation Of Entrepreneurs. Huffington Post, January 9. http://www.huffingtonpost.com/2012/01/09/boomers-who-start-businesses_n_1185394.html, accessed December 3, 2016.&lt;/p&gt;
+
+&lt;p&gt;²Inc, Gallup N.d.A Very Fast-Growing Group of Entrepreneurs: People Over 50. Gallup.com. http://www.gallup.com/businessjournal/181352/fast-growing-group-entrepreneurs-people.aspx, accessed December 3, 2016.&lt;/p&gt;
+
+&lt;p&gt;³Zwilling, Martin N.d.A New Era For Entrepreneurs And Startups Has Begun. Forbes. http://www.forbes.com/sites/martinzwilling/2013/12/25/a-new-era-for-entrepreneurs-and-startups-has-begun/, accessed November 27, 2016.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>I'm not doing digital. I'm learning how to be efficient in a digital world.</title>
+    <link rel="alternate" href="http://blog.url.com/bl/posts/2017/03/19-digital_world.html"/>
+    <id>http://blog.url.com/bl/posts/2017/03/19-digital_world.html</id>
+    <published>2017-03-19T12:07:00+01:00</published>
+    <updated>2017-04-02T12:26:04+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;
+« I’m not doing digital »
+&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yesterday, I joined my friend Lisa for an afterwork and she introduced me for the umpteenth time as: « Guys, this is Elodie and she works in digital. »&lt;/p&gt;
+
+&lt;p&gt;This time, I’ve asker her: « Lisa, do you know exactly what is digital? »&lt;/p&gt;
+
+&lt;p&gt;She looked at me a bit confused and mubbled something like : « hmm… »&lt;/p&gt;
+
+&lt;p&gt;I helped her at saying : « Ok so listen: yesterday I had to buy for my 60-years-old mum her first MP3 reader who so far used to listen CDs.&lt;/p&gt;
+
+&lt;p&gt;She realized that now she can bring with her, her favorite songs anywhere. She realized that she no longer has to wait for coming back home to enjoying them.&lt;/p&gt;
+
+&lt;p&gt;2 weeks ago, I attended a baptism as a photographer. Everybody was so worried that they might  never received their souvenir pictures. You know the story : you have to give your email to aunt X who will take 1 month (unless she has forgotten all about it altogether) to send it to the photographer and then, the photographer has to find out the right image file type as aunt X and her fellows don’t have smartphones yet and they are still expect to be able to print their pictures.&lt;/p&gt;
+
+&lt;p&gt;I found the way to reassure them saying that I have an online portfolio that I will share with them so that either on mobile or on desktop, they’ll have the option to get their souvenir pictures online or to print them.&lt;/p&gt;
+
+&lt;p&gt;So Lisa, are you realizing that something is changing? You don’t listen music the same way than 10 years ago. You can share your souvenir pictures and keep them with you at all times without need to have them physically nor to put them in a specific place in your flat.You can go abroad right now without any worries to wait few months for seeing me again thanks to visio. »
+She told me that: «sure.»&lt;/p&gt;
+
+&lt;p&gt;I’ve answered her: « great, so you’re probably also realizing that you can make all these things thanks to new technologies which permit you to get rid of inconveniences of physical properties. »&lt;/p&gt;
+
+&lt;p&gt;She told me: « Definitely. »&lt;/p&gt;
+
+&lt;p&gt;That’s why I’ve answered: « Ok so this is digital which means « all available in electronic form; readable and manipulable by computer¹ ».&lt;/p&gt;
+
+&lt;p&gt;This is also the aim of a digital economy which revolutionise our way of communicating, of working together, of prioritizing our time since 30 years. »&lt;/p&gt;
+
+&lt;p&gt;Thus, jobs which appeared with Industrial then Financial Revolution will be readjusted through this 3rd Revolution.
+For instance, yesterday a human ressources manager had to check all administrative stuff related to you as employee such as the respect of your working hours (35 working hours in France for example)
+Today, there are online platforms such as Ilucca which do this job for you.
+Realizing this 2 years ago, I’ve decided to acquire skills which will allow me to understand how this new economy is working and how to adapt to all changes to come.»
+Women in tech who are collaborating&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/womenintech2.jpg" alt="womenintech" class="imagein" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;« …I’m learning how to be efficient in a digital world. »
+&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thus, I’ve decided to get work experiences in two different companies: a « start-up » media agency and a leading nutrition company.
+In both companies, I was so surprised to realize that the awareness of this digital economy wasn’t so obvious for most of my colleagues.
+Indeed, my team used to be considered as « a race apart ».  « You are the Digital ones! » « How many likes do we have on Facebook? ».
+We were really considered as doing something amusing, pretty simple and even pointless in a business-oriented vision. That is pretty right that we were having a lot of fun but we were also facing new challenges never experienced so far: for example, when I was working for the nutrition company, we were experienced some great technical problems with our e-commerce platform…but our development team was located in India where there is like 10 hours of jetlag!&lt;/p&gt;
+
+&lt;p&gt;This was the kind of issues that made so obvious the need to adapt 19th/20th century-company structure to the new rules of productivity in digital economy.
+Regarding the company annual strategic plan, we were also used to be put aside. For instance, there was a budget for commercial department, marketing and for « digital stuff » (e-commerce and CRM). Thus, digital was considered as a department and not as a market nor the essence of a global strategy which seems quite problematic when you see than for example in Europe, 47% are e-shoppers².
+There was also this difference between « marketing » and « digital marketing » which doesn’t seem relevant nowadays. Marketing teams used to do events, online partnerships, launches of new products. Digital Marketing teams used to be solicited for social media actions only.
+Nevertheless, as Ivan Menezes, CEO’s Diageo said : “It is not about doing ‘digital marketing’, it is about marketing effectively in a digital world”³
+That’s why, in addition to work experiences, I’ve decided to join this Digital Business Strategy Advanced Master.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;*digital. (n.d.). The American Heritage® Science Dictionary. Retrieved October 30, 2016 from Dictionary.com website http://www.dictionary.com/browse/digital&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;2.“Infographic: Key Figures Online Retailing 2014 and Outlook 2015.” http://www.retailmenot.fr/2015/01/infographic-key-figures-online-retailing-2014-and-outlook-2015/.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;“Mark Ritson: The Death of Digital Is upon Us.” 2015. Marketing Week. https://www.marketingweek.com/2015/08/05/mark-ritson-the-death-of-digital-is-upon-us/.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Credits:&lt;/p&gt;
+
+&lt;p&gt;wocintechchat.com&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Pap’s or how a mobile app is improving Dakar inhabitants’ life?</title>
+    <link rel="alternate" href="http://blog.url.com/bl/posts/2017/03/18-paps.html"/>
+    <id>http://blog.url.com/bl/posts/2017/03/18-paps.html</id>
+    <published>2017-03-18T18:55:00+01:00</published>
+    <updated>2017-04-02T12:26:04+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Last December, I had the opportunity to participate in the organizing team of Africa Start-Up Tour competition in Dakar, Senegal.
+I met one of the speakers there, Bamba Lô who is the founder of Pap’s, a Dakar-born delivery service mobile App.
+I found his mobile application so very relevant to the needs of Dakar’s inhabitants that I decided to interview him ! Read it below&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/bamba.jpg" alt="bamba_createur_Paps" class="imagein" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Me: “Hey Bamba, so first I would like to know why did you decide to create this geolocation-based service mobile app?”&lt;/p&gt;
+
+&lt;p&gt;Bamba: “Actually, this idea came naturally; in August 2015, I had a call center company located in Paris, in Dakar and in Bizair (Tunisia). One of our clients proposed a new deal to us: to sell local mobile bundles in Dakar. As it was an entirely new business here, we decided to jump onboard straight away!&lt;/p&gt;
+
+&lt;p&gt;Right from the first months, the results were very encouraging: we made 1K sales on average per month. However, the collection of revenue wasn’t so good: it accounted for 20% of sales…!
+Thus, we decided to complete our service: not only to provide the mobile offer but also to provide a delivery service.&lt;/p&gt;
+
+&lt;p&gt;We began with a few customers and one thing led to another, some customers began to ask us to do all kinds of deliveries: “Please could you go and get me my daughter’s birthday gift?”, “Could you go and get me a pizza? The game is about to start soon!” So on and so forth…&lt;/p&gt;
+
+&lt;p&gt;THAT! Is how we officially started our delivery service offering.&lt;/p&gt;
+
+&lt;p&gt;Not too long after that, Orange (the telecommunications company) came to us as they were looking for a back-up provider to complete their VIP janitorial offering; we agreed to take the risk and accept their proposition!&lt;/p&gt;
+
+&lt;p&gt;Within a few months, the results were encouraging thanks to the quality of our service: in fact, our deliverymen always have change (most of our customers pay in cash here), they are always smiling and polite: in other words, they were just applying the basis of politeness which is enough here to make the difference.&lt;/p&gt;
+
+&lt;p&gt;Last march, in order to optimize the partnership, we decided to create a mobile app.”&lt;/p&gt;
+
+&lt;p&gt;M- « Could you tell me more about how the “customer satisfaction” principal is applied here in Dakar? In fact, it is a very Western principal which is quite recent in the service industry in most of West African countries isn't it?&lt;/p&gt;
+
+&lt;p&gt;B- That is true. Most of Dakar-based delivery service companies don’t apply this principle of “customer satisfaction”. That is why most consumers aren’t loyal to a brand and keep looking for the competitor.&lt;/p&gt;
+
+&lt;p&gt;The key is to apply in the professional sphere, what exists in private one: for example, we are used to respecting the elderly, being generous and united with our fellows.
+At Pap’s, we decided to apply these values when we do our deliveries to create loyalty to our service and so to make a difference; it seems to work  !”&lt;/p&gt;
+
+&lt;p&gt;M- “Regarding the geolocation, I’ve noticed that African cities overall are badly referenced on online maps; how did you manage to deal with this issue? “&lt;/p&gt;
+
+&lt;p&gt;B- “We decided to refer the main meeting spots depending on professionals’ habits, individuals ‘ones, residential zones etc. Then, we split Dakar in 3 main zones: center, Sacré-coeur-liberté 6-Mermoz, Almadies-Gorée. To be efficient, each deliveryman has his dedicated delivery zone; Thus, when we receive an order, it is only the closest deliveryman who receives a push notification.”&lt;/p&gt;
+
+&lt;p&gt;A deliveryman receiving a push notification on his smartphone.&lt;/p&gt;
+
+&lt;p&gt;M- “Are you already profitable?”&lt;/p&gt;
+
+&lt;p&gt;B- “Currently, we are going through a hyper-growth phase: with just 1 deliveryman, we moved from 42 deliveries the 1st month of activity, to 143 deliveries the 2nd month and 322 deliveries in the 3rd one. Today, we complete on average, 10 deliveries per day per deliveryman.
+So, our main challenge for sure is to increase our resources in order to meet our expanding customer requests but first, to maintain the quality of our service.“&lt;/p&gt;
+
+&lt;p&gt;M- I’ve noticed that Dakar is a religious city; Is it a constraint to consider when running a digital business?”&lt;/p&gt;
+
+&lt;p&gt;B- “Not at all (Laugh). It’s just a different timeline to consider. When it is prayer time, it is the same for all so, the customers and our deliverymen do their prayers. Once it’s over, the customers can place his order and the deliveryman is operational and ready to restart his deliveries.”&lt;/p&gt;
+
+&lt;p&gt;M-” Do you think that digital is a viable solution for the economic development of emerging countries?”&lt;/p&gt;
+
+&lt;p&gt;B-” I’m convinced that it is! The power of digital is the speed of its deployment in people’s life. Each great digital solution can go viral in a few seconds. Look at social networks for example. Look at how fast they have been adopted here!&lt;/p&gt;
+
+&lt;p&gt;Thus, I’m convinced that it is the better way to meet local needs. Look at our mobile application; we are just offering a classic delivery service. Thanks to digital we’ve created an app which meet Dakar’s inhabitants needs. In addition to that, it brings a qualitative service, a high level of requirements which was quite hard to put in place before digital era.”&lt;/p&gt;
+
+&lt;p&gt;M – “Thanks a lot for this interesting interview!”&lt;/p&gt;
+
+&lt;p&gt;If you’re looking for more information regarding Pap’s, one direction to follow: http://www.paps-dev.com/&lt;/p&gt;
+
+&lt;p&gt;Elodie WANANG&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Is Facebook a new democracy model?</title>
+    <link rel="alternate" href="http://blog.url.com/bl/posts/2017/03/18-facebook-democracy.html"/>
+    <id>http://blog.url.com/bl/posts/2017/03/18-facebook-democracy.html</id>
+    <published>2017-03-18T14:21:00+01:00</published>
+    <updated>2017-04-02T12:26:04+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;First let’s look at the common, definition of democracy:&lt;/p&gt;
+
+&lt;p&gt;According to Collins(1), is a system of running organizations, businesses, and groups in which each member is entitled to vote and take part in decisions.&lt;/p&gt;
+
+&lt;p&gt;Well I don’t think that in this case it could work: I’m pretty sure that I a user can’t take part of the social media’s strategic decisions.
+In addition, Mark was pretty clear when he declared last week: “Democracy isn’t a focus group” (2)&lt;/p&gt;
+
+&lt;p&gt;Ok so what about these most common definitions(1)
+“majority rule », « the principle of equality of rights, opportunity, and treatment, or the practice of this principle”&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;“Majority rule”&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It seems that on Facebook, the majory so us, the users, can make the sun shine or make in rain.&lt;/p&gt;
+
+&lt;p&gt;This is especially true regarding brands reputation. 
+By expressing our opinions only, we can build the brand of the year or the brand of Shame in one day …!
+Did you remember of anti-Kik Kat (Nestlé‘s brand) activist campaign on Facebook (3) ?
+They were denounced by Greenpeace as using Indonesian palm oil and so having a “devasting impact on Rainforest, The Climate and Orang-utans.” Nestlé’s fans were quite angry as we can see below :&lt;/p&gt;
+
+&lt;p&gt;This was enough for the company to ensure changes in product fabrication such as eliminating the use of this oil.&lt;/p&gt;
+
+&lt;p&gt;Thus, have you realized how valuable is your opinion as Facebook user? Now it is even the basis of a new business.&lt;/p&gt;
+
+&lt;p&gt;Did you ever hear of social listening? 
+According to Sproudsocial (4) , “is the process of tracking conversations around specific phrases, words or brands, and then leveraging them to discover opportunities or create content for those audiences.”
+On social media, that only means to understand how us, users, speak about a brand on the Net, what do we exactly think of this brand, how do we considerate it?
+Many agencies decided to develop business intelligence tools such as Digimind to track all this information or even to propose the service to companies in order they watch their e-reputation.&lt;/p&gt;
+
+&lt;p&gt;We can also express ourselves on any subject.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;"the principle of equality of rights, opportunity, and treatment, or the practice of this principle”&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can give your opinion on an original recipe, on a social drama or even on public figures. The inauguration Day has never been as trolled as during Trump one on Facebook. They were tons of Boycott Facebook Pages. Moreover, the official inauguration invite received thousands of incendiary comments(5)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/facebook2.jpg" alt="diversity,facebook" class="imagein" /&gt;&lt;/p&gt;
+
+&lt;p&gt;As every people voice counts, diversity is the king.&lt;/p&gt;
+
+&lt;p&gt;This is especially true regarding new talents. 
+In fact, on Facebook, we have the liberty to say what we are, what we love and thus to bring some diversity in top mainstream artists. Today, there is a few artists who began sketches online and who gain so huge audiences and so influence that they can make their own dream come true. I think of Ahmed Sylla who began his sketches on Facebook: he then obtained its own one-man show, a role in a TV serie and now he has his own top of the bill!
+I also think of Sanaa K who is an influencer as illustrator thanks to Facebook! 
+We used to know illustrators who were influencers as artists coming from an elitist world and whose art could be appreciated in economic newspapers such as le Monde or in academic reviews. This is no longer the case. Thanks Facebook ‘audience, you can be illustrator, young, speaking about everyday life, women’ whims, richness of diversity and get + 44k followers!&lt;/p&gt;
+
+&lt;p&gt;Nevertheless on Facebook and social media in overall, as unique user, we are not really looking for diversity of opinions.&lt;/p&gt;
+
+&lt;p&gt;That is what Sandy Pentland, Director of MIT IDE leader explains through his research(6). He realized that when we navigate on social media or we look for interactions, we “self-identify and seek out like opinions”.
+If I think about it now, this is quite true: did you never realized when you are on Facebook, you seem happier, more likely to laugh or to be affected than when you are outside? As you are always selecting what you like, what subject are more likely to interest you, you’ve unconsciously or not, making a filter on the information the platform will show you. The platform “deep-learns” what you’re interested in.
+Outside, you don’t have this possibility to select the information you receive: you still must deal with opposite thoughts or opinions. Thus, Sandy Pentland explains physical interactions remain crucial to reach consensus, to preserve debates and so to preserve democracy ie here, diversity of opinions.&lt;/p&gt;
+
+&lt;p&gt;So Facebook, anew model of democracy? Regarding the possibilities offered to the users, no matter his social or economic background, yes, it is. Nevertheless, users still don’t have the possibility to be part of the strategic board and it doesn’t seem to be in Marc’s agenda.&lt;br /&gt;
+Facebook is also a business, a data business which often raise privacy issue. Can this be compatible with a democracy model?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sources:&lt;/p&gt;
+
+&lt;p&gt;(1)	« Democracy definition and meaning Collins English Dictionary ». Consulté le 24 février 2017. https://www.collinsdictionary.com/dictionary/english/democracy.&lt;/p&gt;
+
+&lt;p&gt;(2)	« Dear Mark Zuckerberg: Democracy is not a Facebook focus group. » America Magazine, 21 février 2017. http://www.americamagazine.org/politics-society/2017/02/21/dear-mark-zuckerberg-democracy-not-facebook-focus-group.&lt;/p&gt;
+
+&lt;p&gt;(3)« Activists Use Facebook To Help Pressure Nestlé On Deforestation Issue ». Consulté le 24 février 2017. http://www.adweek.com/digital/activists-use-facebook-to-help-pressure-nestle-on-deforestation-issue/.&lt;/p&gt;
+
+&lt;p&gt;(4) « What Is Social Listening &amp;amp; Why Is It Important? » Sprout Social, 18 novembre 2015. http://sproutsocial.com/insights/social-listening/.&lt;/p&gt;
+
+&lt;p&gt;(5) « Trump and Pence posted an inauguration invite on Facebook. They really should have disabled comments. » Consulté le 24 février 2017. http://www.someecards.com/news/politics/trump-pence-inauguration-invitation-facebook-comments/.
+(6) « To Rescue Democracy, Go Outside | MIT Initiative on the Digital Economy ». Consulté le 24 février 2017. http://ide.mit.edu/news-events-media/news/rescue-democracy-go-outside.&lt;/p&gt;
+
+</content>
+  </entry>
+</feed>
+
+  <div id="footer">
+    <ul class= "list-inline">
+      <li><a href="https://twitter.com/ewanang" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/elodiewanang" target="_blank"><i class="fa fa-linkedin"></i> </a></li>
+      <br><br>
+      <p>Elodie WANANG - Copyrights 2017</p>
+    </ul>
+  </div>
+ 
+</body>
+</html>
+
+  
