@@ -95,13 +95,13 @@ activate :deploy do |deploy|
 end
 
 activate :blog do |blog|
-  blog.layout = "article_layout"
+  blog.layout = "layouts/article_layout"
   blog.tag_template = "bl/tag.html"
   blog.calendar_template = "bl/calendar.html"
   blog.prefix = "bl"
   blog.default_extension = ".md"
-  blog.sources = "bl/posts/{year}/{month}/{day}-{title}.html"
-  blog.permalink = "bl/posts/{year}/{month}/{day}-{title}.html"
+  blog.sources = "posts/{year}/{month}/{day}-{title}.html"
+  blog.permalink = "posts/{year}/{month}/{day}-{title}.html"
 
 end
 
