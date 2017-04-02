@@ -8117,15 +8117,16 @@ button.close {
   li.dropdown {
     display: none; } }
 /*!
- *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.5.0 by @davegandy - http://
+.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("fonts/font-awesome/fontawesome-webfont.eot?v=4.5.0");
-  src: url("fonts/font-awesome/fontawesome-webfont.eot?v=4.5.0#iefix") format("embedded-opentype"), url("/fonts/font-awesome/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("/fonts/font-awesome/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("/fonts/font-awesome/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("/fonts/font-awesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?v=4.5.0");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?v=4.5.0#iefix") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/font-awesome/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 /* line 4, /Users/elodiewanang/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/font-awesome-sass-4.5.0/assets/stylesheets/font-awesome/_core.scss */
@@ -11338,8 +11339,8 @@ img {
   /* line 291, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
   #banner {
     background-image: url("images/Dakar_copie.jpg");
-    background-size: 100%;
-    height: 200px;
+    background-size: 1900px auto;
+    height: 955px;
     width: 100%;
     color: #FFFFFF;
     font-size: 20px;
