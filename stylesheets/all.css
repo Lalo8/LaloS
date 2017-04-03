@@ -11186,10 +11186,9 @@ img {
   max-width: 100%;
   max-height: 100%; }
   /* line 115, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
-  .imagein img{
+ img .imagein {
     display: block;
     margin: 10px auto; }
-}
 
 /* line 120, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
 #article_style {
