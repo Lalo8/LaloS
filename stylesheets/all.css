@@ -11083,7 +11083,7 @@ button.close {
 /* line 1, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
 #banner
 {
-  background-image: url("images/Dakar_copie.jpg");
+  background-image: url("/images/Dakar_copie.jpg");
   background-size: 1900px auto;
   height: 955px;
   width: 100%;
@@ -11101,7 +11101,7 @@ button.close {
   margin-right: auto;}
   /* line 20, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
   .maintitle p {
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
 padding-top :20%;}
 
@@ -11260,6 +11260,15 @@ img {
     width: 100%;
     padding: 0px 10px !important;
     margin: auto; }
+  
+  .maintitle {
+  margin-left:auto;
+  margin-right: auto;}
+  /* line 20, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
+  .maintitle p {
+    font-size: 30px;
+    text-align: center;
+padding-top :20%;}
 
   /* line 203, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
   #article_style {
@@ -11338,14 +11347,14 @@ img {
 
   /* line 291, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
   #banner {
-    background-image: url("images/Dakar_copie.jpg");
-    background-size: 1900px auto;
-    height: 955px;
-    width: 100%;
-    color: #FFFFFF;
+    background-image: url("/images/Dakar_copie.jpg");
+   background-size: 100%;
+    height:200px; 
+    width : 100%;
+    color:$whitebroken;
     font-size: 20px;
     padding-top: 30px;
-    margin-top: 0px; }
+    margin-top : 0px; }
     /* line 301, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
     #banner h1 {
       font-size: 60px;
