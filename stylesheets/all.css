@@ -11283,8 +11283,8 @@ padding-top :20%;}
   /* line 212, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
   #article_text {
     font-family: 'Raleway','Montserrat','Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    line-height: 0.9;
-    font-size: h3; }
+    line-height: 1;
+    font-size: 17px; }
 
   /* line 221, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
   #article_title {
@@ -11306,7 +11306,7 @@ padding-top :20%;}
   .retour {
     padding-bottom: 30px;
     padding-top: 10px;
-    margin-left: 35%; }
+    text-align: center; }
 
   /* line 246, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
   #articleheading {
