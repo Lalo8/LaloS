@@ -11248,7 +11248,9 @@ img.imagein {
 .retour {
   padding-bottom: 30px;
   padding-top: 10px;
-  margin-left: 50%; }
+  margin-left: auto;
+  margin-right:auto;
+  display: block;}
 
 @media only screen and (max-width: 1200px) {
   /* line 191, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/pages/_home.css.scss */
