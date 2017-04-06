@@ -1119,12 +1119,7 @@
     margin:0 auto;
 	  width:100%
       }
- .grid{
-      width: 100%;
-      padding: 0px 10px !important;
-      margin: Opx;
-    } 
-
+ 
  .headline{
     text-align: center;
     margin-top: 50px;
@@ -1156,6 +1151,22 @@
       padding: 0px 10px !important;
       margin: auto;
     } 
+	  
+.grid{ width: 100%;
+      padding: 0px 10px !important;
+      margin: Opx;
+    } 
+	  
+  .grid-section{
+    background-repeat: no-repeat;
+      background-size: 100% 100%;
+    background: rgb(250, 250, 250);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin:0 auto;
+	  width:100%
+      }
+
   }
 
   #search, .media-boxes-drop-down{
