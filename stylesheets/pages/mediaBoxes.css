@@ -888,7 +888,7 @@
 	
   .media-box {
     /* Box-model */
-    display: block; /* hidden by default, the plugin will take care of showing it */
+    display: none; /* hidden by default, the plugin will take care of showing it */
     float: left;
   
     /* hardware acceleration */
@@ -1116,8 +1116,15 @@
     background: rgb(250, 250, 250);
     padding-top: 80px;
     padding-bottom: 100px;
+    margin:0 auto;
+	  width:100%
       }
- 
+ .grid{
+      width: 100%;
+      padding: 0px 10px !important;
+      margin: Opx;
+    } 
+
  .headline{
     text-align: center;
     margin-top: 50px;
