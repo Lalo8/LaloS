@@ -1454,7 +1454,8 @@ a:focus {
 
 /* line 1113, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/config/bootstrap.css */
 figure {
-  margin: 0; }
+  font-style:italic;
+  font-size: 10px;}
 
 /* line 1116, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/config/bootstrap.css */
 img {
