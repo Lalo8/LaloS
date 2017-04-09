@@ -14,6 +14,7 @@
           <ul class="nav navbar-nav navbar-right"> <li> 
           <a href="../../../../portfolio.html"> Portfolio </a> </li> 
           <li> <a href="../../../blog.html"> Blog </a> </li>
+            <li> <a data-toggle=modal data-target="#message" class=button>Contact</a> </li>
           
           </ul> </li>>
       </div> </nav> 
@@ -53,6 +54,21 @@
     })();
 //]]>
 </script> 
+    
+	<section id=contact> 
+      <div class="modal fade" id=message tabindex=-1 role=dialog aria-labelledby=myModalLabel aria-hidden=true> 
+        <div class=modal-dialog> 
+        <div class=modal-content>
+          <div class=modal-header> <button type=button class=close data-dismiss=modal aria-label=Close> 
+          <span aria-hidden=true>&times;</span> </button> <h4 class=modal-title id=myModalLabel>Demande d'informations? Propositions? Encouragement? N'hésitez pas :) ! </h4> 
+          <br><br> 
+          <form class=form-inline action="mailto:lalosfolio@gmail.com"ENCTYPE="text/plain"> 
+            
+ 
+            <button type=submit class="btn btn-success" value="Send">lalosfolio@gmail.com</button> </form> 
+          </div> </div> </div> </div> </div> 
+        </section> 
+    
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -66,8 +82,11 @@
     
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> 
     <script id="dsq-count-scr" src="//lalos-1.disqus.com/count.js" async></script>
-  <div class=retour> <a href="../../../blog.html" class="btn btn-info" role="button"> menu </a> </div> 
-  <div class=footer_article> <div class=column>
+  
+    <div class=retour> <a href="../../../blog.html" class="btn btn-info" role="button"> menu </a> </div> 
+  
+    <div class=footer_article> 
+      <div class=column>
     <h2> Articles récents / Recent Articles</h2>
     <ol class=blog-detail> <li><a href="19-kind_to_us.html">So how this digital world looks like? Well, it’s pretty kind to us.</a> 
       <span>Mar 19</span></li> 
@@ -81,6 +100,7 @@
     <li><a href="../../../tags/creativity.html">Creativity (2)</a></li> </ol> </div> <div class=column> 
     <h2>Par an / By Year</h2> <ol class=blog-detail> <li><a href="../../../2017.html">2017 (4)</a></li> 
     </ol> </div> </div> 
+    
     <div id=footer> 
     <ul class=list-inline> 
   <li><a href="https://twitter.com/ewanang" target=_blank> 
