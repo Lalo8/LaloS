@@ -57,18 +57,25 @@
     <div class="media-box outside"> <div class=media-box-image> <a href="bl/blog.html"><div data-width=240 data-height=151 data-thumbnail="images/womenintech1.jpg"></div> <div class="thumbnail-overlay blue-blog" data-src="images/womenintech1.jpg"> <div class=thumbnail-overlay-animated data-from=top> <div class=media-box-title-index>Blog</div> 
       </div> 
       </div> 
-      </div> </a> </div> </div> </div> </div> <section id=contact> <div class="container foo"> 
-  <h2>Pour toute demande d'informations</h2> <br> <button type=button class="btn btn-info bt-lg" data-toggle=modal data-target="#message"> C'est par ici ! </button> </div> 
+      </div> </a> </div> </div> </div> </div> 
+      
+      <section id=contact> 
+      <div class="container foo"> 
+  <h2>Pour toute demande d'informations</h2> <br> 
+        <button type=button class="btn btn-info bt-lg" data-toggle=modal data-target="#message"> C'est par ici ! </button> </div> 
       <div class="modal fade" id=message tabindex=-1 role=dialog aria-labelledby=myModalLabel aria-hidden=true> <div class=modal-dialog> 
         <div class=modal-content> <div class=modal-header> <button type=button class=close data-dismiss=modal aria-label=Close> 
-          <span aria-hidden=true>&times;</span> </button> <h4 class=modal-title id=myModalLabel>Ton message</h4> <br><br> 
-          <form class=form-inline> <div class=form-group> <label class=sr-only for=exampleInputName1>Name</label> 
+          <span aria-hidden=true>&times;</span> </button> <h4 class=modal-title id=myModalLabel>Demande d'informations? Propositions? Encouragement? N'hésitez pas :) ! </h4> 
+          <br><br> 
+          <form class=form-inline action="mailto:elodie.wanang@gmail.com"> 
+            <div class=form-group> 
+              <label class=sr-only for=exampleInputName1>Name</label> 
             <input type=name class=form-control id=exampleInputName1 placeholder=Nom> </div> 
             <div class=form-group> 
             <label class=sr-only for=exampleInputEmail2>Email</label> 
               <input type=email class=form-control id=exampleInputEmail1 placeholder=Email></div> <br><br> 
             <textarea class=form-control rows=3placeholder=Message></textarea> <br><br> 
-            <button type=submit class="btn btn-success">Envoyé !</button> </form> <div class=modal-body> 
+            <button type=submit class="btn btn-success" value="Send Email">Envoyé !</button> </form> <div class=modal-body> 
           </div> </div> </div> </div> 
         </section> 
       	// GA
