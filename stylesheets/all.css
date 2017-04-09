@@ -132,6 +132,10 @@ figure {
   margin: 1em 40px;
 }
 
+#modalcontact{
+ text-align:center;
+}
+
 /* line 95, /Users/elodiewanang/Documents/Wagon/lalooooos/source/stylesheets/config/bootstrap.css */
 hr {
   height: 0;
